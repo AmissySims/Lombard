@@ -1,0 +1,24 @@
+﻿<Application x:Class="Lombard.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Lombard"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Background" Value="Black"/>
+            <Setter Property="BorderBrush" Value="Gold"/>
+            <Setter Property="Foreground" Value="Gold"/>
+            <Setter Property="BorderThickness" Value="3"/>
+        </Style>
+        <Style TargetType="TextBlock" x:Key="MainTb">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="FontSize" Value="28"/>
+            <Setter Property="Foreground" Value="Gold"/>
+            <Setter Property="FontFamily" Value="Roboto"/>
+
+        </Style>
+    </Application.Resources>
+</Application>
